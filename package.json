@@ -19,10 +19,11 @@
     "moment": "~2.8.3"
   },
   "dependencies": {
+    "moment": "^2.10.5",
     "serialport": "^1.7.4"
   },
-"repository" : { 
-   "type" : "git",
-   "url" : "https://github.com/rinie/p1uitlezer.git"
- }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rinie/p1uitlezer.git"
+  }
 }
