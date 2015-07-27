@@ -4,6 +4,7 @@
   "description": "Lees de P1 poort van een slimme meter uit en schrijf naar csv",
   "main": "p1uitlezer.js",
   "scripts": {
+    "start": "node p1uitlezer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,5 +17,12 @@
   "license": "ISC",
   "devDependencies": {
     "moment": "~2.8.3"
-  }
+  },
+  "dependencies": {
+    "serialport": "^1.7.4"
+  },
+"repository" : { 
+   "type" : "git",
+   "url" : "https://github.com/rinie/p1uitlezer.git"
+ }
 }
